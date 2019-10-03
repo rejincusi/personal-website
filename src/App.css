@@ -1,0 +1,72 @@
+html, body, #root {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main-container {
+  padding: 2em;
+}
+
+.container {
+  margin-top: 30px !important;
+  border: 1px solid rgb(212, 212, 212);
+  background-color: aliceblue;
+  height: 90vh
+}
+
+.grid-info {
+  background-color: #cff6d1 !important;
+  padding: 20px;
+}
+
+.menu {
+  border-bottom: 1.5px solid rgb(182, 182, 182) !important;
+  background-color: #fafafa !important;
+  height: 40px !important;
+}
+
+/* .content-menu {
+  padding-left: 60px;
+  padding-right: 60px;
+} */
+
+.max-height {
+  height: 100%;
+  padding: 30px !important;
+}
+
+.list-menu {
+  color: rgb(149, 149, 149) !important;
+  list-style-type: none;
+  display: inline-flex
+}
+
+li {
+  padding-left: 20px !important;
+  padding-right: 20px !important
+}
+
+.tab-menu  {
+  color: rgb(93, 93, 93) !important; 
+  /* background-color: rgb(216, 216, 216) !important */
+}
+
+.Muitab-indicator {
+  background-color: #fafafa !important
+}
+
+.cv-link {
+  display: block;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none
+}
+
+i {
+  padding: 30px;
+}
