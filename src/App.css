@@ -10,13 +10,13 @@ html, body, #root {
 .container {
   margin-top: 30px !important;
   border: 1px solid rgb(212, 212, 212);
-  background-color: aliceblue;
   height: 90vh
 }
 
 .grid-info {
-  background-color: #cff6d1 !important;
-  padding: 20px;
+  background-color: #5cbdca96 !important;
+  text-align: center;
+  height: 100%;
 }
 
 .menu {
@@ -25,30 +25,9 @@ html, body, #root {
   height: 40px !important;
 }
 
-/* .content-menu {
-  padding-left: 60px;
-  padding-right: 60px;
-} */
-
 .max-height {
   height: 100%;
-  padding: 30px !important;
-}
-
-.list-menu {
-  color: rgb(149, 149, 149) !important;
-  list-style-type: none;
-  display: inline-flex
-}
-
-li {
-  padding-left: 20px !important;
-  padding-right: 20px !important
-}
-
-.tab-menu  {
-  color: rgb(93, 93, 93) !important; 
-  /* background-color: rgb(216, 216, 216) !important */
+  padding: 40px !important;
 }
 
 .Muitab-indicator {
@@ -69,4 +48,31 @@ a:hover {
 
 i {
   padding: 30px;
+  color: #229dad !important
+}
+
+.img-png {
+  position: absolute;
+  margin-left: 18%;
+  max-width: 60%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.profile-wrapper {
+  display: flex;  
+  flex-direction: column;
+  height: 100%;
+}
+
+.text-container {
+  flex-grow: 2;
+  padding: 20px;
+}
+
+.img-container {
+  flex-grow: 1;
+  position: relative;
+  align-items: center;
 }

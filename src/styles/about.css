@@ -1,5 +1,9 @@
-.about {
-  text-align: center;
-  /* margin: 5rem; */
+p {
+  font-size: 1.49em;
+}
 
+.about-info {
+  text-align: center;
+  margin: 2rem;
+  color: #205b62;
 }
