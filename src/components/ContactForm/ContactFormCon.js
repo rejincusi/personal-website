@@ -21,7 +21,7 @@ class ContactFormCon extends Component {
   handleSubmit = async event => {
     event.preventDefault()
     const dataToSend = {
-      name: this.state.title,
+      name: this.state.name,
       phone: this.state.phone,
       email: this.state.email,
       message: this.state.message
