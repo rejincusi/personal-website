@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 import './App.css';
 import { CssBaseline, Typography, Grid, } from '@material-ui/core';
-import Png from './assets/rejincusi.png'
+import Png from './assets/rejin.png'
 import Skills from './components/Skills/Skills'
 import About from './components/About/About'
 import ContactForm from './components/ContactForm/ContactFormCon'

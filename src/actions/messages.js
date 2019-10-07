@@ -9,7 +9,7 @@ function newMessage(payload) {
 	}
 }
 
-export const createMessage = (data) => async (dispatch, getState) => {
+export const createMessage = (data) => async (dispatch) => {
   
   const serverUrl = 'https://rejin-server.herokuapp.com'
 
