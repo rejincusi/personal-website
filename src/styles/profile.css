@@ -1,0 +1,71 @@
+.text-container {
+  flex-grow: 2;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #f1cfcc
+}
+
+h3 {
+  font-family: 'Comfortaa', cursive !important;
+}
+
+.github {
+  text-align: right
+}
+
+.linkedin {
+  text-align: left
+}
+.MuiTypography-h6 {
+  font-size: 1em !important
+}
+.main-container {
+  padding: 2em;
+}
+
+.grid-info {
+  background-color: #e79b96 !important;
+  text-align: center;
+  height: 100%;
+} 
+
+.max-height {
+  height: 100%;
+  padding: 40px !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+i {
+  padding: 30px;
+  color: #565758 !important
+}
+
+.img-png {
+  position: absolute;
+  margin-left: 18%;
+  max-width: 60%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.profile-wrapper {
+  display: flex;  
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.img-container {
+  flex-grow: 1;
+  position: relative;
+  align-items: center;
+}
+
+.icon .MuiGrid-item {
+  display: inline-flex;
+  justify-content: center !important;
+}

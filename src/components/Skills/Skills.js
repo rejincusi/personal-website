@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../../styles/skills.css'
 import { Grid } from '@material-ui/core'
-import Footer from '../../components/Footer/Footer'
 
 export default class Skills extends Component {
   render() {
@@ -9,7 +8,7 @@ export default class Skills extends Component {
       <div className="skills">
         <Grid container>
           <Grid item xs={12} className="grid-skills">
-            <p>Below are the programming languages, frameworks and tools that I'm familiar with <br />and are currently
+            <p id="text">Below are the programming languages, frameworks and tools that I'm familiar with <br />and are currently
             improving.</p>
           </Grid>
           <Grid item xs={12}>
@@ -66,7 +65,6 @@ export default class Skills extends Component {
 
             <p className="text-info">Check out my latest projects on my <strong><a href="https://github.com/rejincusi">
               github</a></strong> profile</p>
-            <Footer />
 
           </Grid>
         </Grid>

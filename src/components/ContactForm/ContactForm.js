@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { TextField, Button, Grid } from '@material-ui/core';
 import '../../styles/contact.css'
-import Footer from '../../components/Footer/Footer'
 
 export default class ContactForm extends Component {
   render() {
@@ -86,7 +85,6 @@ export default class ContactForm extends Component {
           </Button>
 
         </form>
-        <Footer />
       </div>
     )
   }

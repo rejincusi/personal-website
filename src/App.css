@@ -13,19 +13,9 @@ html, body, #root {
   height: 90vh
 }
 
-.grid-info {
-  background-color: #e79b96 !important;
-  text-align: center;
-  height: 100%;
-} 
-
 .max-height {
   height: 100%;
   padding: 40px !important;
-}
-
-.cv-link {
-  display: block;
 }
 
 a:link {
@@ -35,35 +25,4 @@ a:link {
 i {
   padding: 30px;
   color: #565758 !important
-}
-
-.img-png {
-  position: absolute;
-  margin-left: 18%;
-  max-width: 60%;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.profile-wrapper {
-  display: flex;  
-  flex-direction: column;
-  height: 100%;
-}
-
-.text-container {
-  flex-grow: 2;
-  padding: 20px;
-}
-
-.img-container {
-  flex-grow: 1;
-  position: relative;
-  align-items: center;
-}
-
-.icon .MuiGrid-item {
-  display: inline-flex;
-  justify-content: center !important;
 }

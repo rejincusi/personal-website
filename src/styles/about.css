@@ -1,9 +1,36 @@
-p {
-  font-size: 1.49em;
+.about {
+  font-size: 1.3em;
+  margin-bottom: 0
 }
 
 .about-info {
   text-align: center;
-  margin: 2rem;
   color: #565758;
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-info {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.quotes {
+  font-size: 1.1em;
+  font-weight: bold
+}
+
+.author {
+  font-size: 1em !important;
+  float: right;
+  font-weight: bold;
+  margin-right: 55px;
+} 
+
+@media only screen and (max-width: 600px) {
+  .author {
+    margin-right: 0px;
+  }
 }
