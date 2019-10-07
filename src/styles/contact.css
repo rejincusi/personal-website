@@ -36,5 +36,8 @@ h1 {
   .msg-form {
     margin-bottom: 0px !important
   }
+  .sbmt-btn {
+    margin-bottom: 20px !important
+  }
 }
 

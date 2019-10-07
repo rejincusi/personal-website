@@ -26,3 +26,12 @@ i {
   padding: 30px;
   color: #565758 !important
 }
+
+@media only screen and (max-width: 600px) {
+  .max-height {
+    padding: 0px !important;
+  }
+  .grid-content {
+    padding: 40px !important;
+  }
+}
