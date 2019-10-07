@@ -4,18 +4,19 @@
 
 .skills-container {
   padding: 20px;
+  margin-bottom: 15px;
 }
 
 .grid-skills {
-  color: black !important
+  color: #565758 !important
 }
 
 i {
-  color: #229dad !important;;
+  color: #565758 !important;;
 }
 
 a {
-  color: #2a7079 !important;
+  color: #565758 !important;
 }
 
 .text-info {

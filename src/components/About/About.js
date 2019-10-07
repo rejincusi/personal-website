@@ -24,7 +24,7 @@ export default class About extends Component {
               Rejin knew that she always wanted to do something even more, and then she realized <br/>that she want to pursue the world of programming. <br/>
 
               She want to do this from now on till when she gets old because you are never too old to code.
-          <br/><br/>
+             <br/><br/>
             </p>
 
             <Footer />

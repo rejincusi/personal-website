@@ -14,24 +14,14 @@ html, body, #root {
 }
 
 .grid-info {
-  background-color: #5cbdca96 !important;
+  background-color: #e79b96 !important;
   text-align: center;
   height: 100%;
-}
-
-.menu {
-  border-bottom: 1.5px solid rgb(182, 182, 182) !important;
-  background-color: #fafafa !important;
-  height: 40px !important;
-}
+} 
 
 .max-height {
   height: 100%;
   padding: 40px !important;
-}
-
-.Muitab-indicator {
-  background-color: #fafafa !important
 }
 
 .cv-link {
@@ -42,13 +32,9 @@ a:link {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none
-}
-
 i {
   padding: 30px;
-  color: #229dad !important
+  color: #565758 !important
 }
 
 .img-png {
@@ -75,4 +61,9 @@ i {
   flex-grow: 1;
   position: relative;
   align-items: center;
+}
+
+.icon .MuiGrid-item {
+  display: inline-flex;
+  justify-content: center !important;
 }

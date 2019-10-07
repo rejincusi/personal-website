@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
-import { TextField, Button, Grid } from '@material-ui/core';
+import ContactForm from './ContactForm'
+import { connect } from 'react-redux'
+import { createMessage } from '../../actions/messages'
 
-export default class ContactForm extends Component {
+class ContactFormCon extends Component {
   state = {
     name: '',
     phone: '',
     email: '',
     message: '',
+    successMessage: ""
   }
 
   handleChange = (event) => {
@@ -15,60 +18,50 @@ export default class ContactForm extends Component {
     })
   }
 
-  // handleSubmit = async e => {
-  //   event.preventDefault()
-    
-  // }
+  handleSubmit = async event => {
+    event.preventDefault()
+    const dataToSend = {
+      name: this.state.title,
+      phone: this.state.phone,
+      email: this.state.email,
+      message: this.state.message
+    }
+    this.props.createMessage(dataToSend)
+    this.setState({
+      successMessage: "Message has been sent",
+      name: '',
+      phone: '',
+      email: '',
+      message: '',
+    })
+    setTimeout(
+      () => {
+        this.setState({
+          successMessage: ''
+        })
+      }
+      , 5000)
+  }
 
   render() {
     return (
       <div>
-        <Grid item xs={12}>
-          <h1>Get in touch</h1>
-        </Grid>
-
-        <Grid item xs={12}>
-          <Grid container className="skills-container">
-            <TextField
-              id="outlined-bare"
-              className="message-form"
-              defaultValue="Name"
-              margin="normal"
-              variant="outlined"
-              inputProps={{ 'aria-label': 'bare' }}
-            />
-            <TextField
-              id="outlined-bare"
-              className="message-form"
-              defaultValue="Email"
-              margin="normal"
-              variant="outlined"
-              inputProps={{ 'aria-label': 'bare' }}
-            />
-
-            <TextField
-              id="outlined-bare"
-              className="message-form"
-              defaultValue="Phone"
-              margin="normal"
-              variant="outlined"
-              inputProps={{ 'aria-label': 'bare' }}
-            />
-            <TextField
-              id="outlined-multiline-static"
-              multiline
-              rows="4"
-              defaultValue="Your message..."
-              className="message-container"
-              margin="normal"
-              variant="outlined"
-            />
-          </Grid>
-        </Grid>
-        <Button variant="contained" size="large" color="secondary">
-          SEND MESSAGE
-        </Button>
+        <ContactForm
+          handleSubmit={this.handleSubmit}
+          handleChange={this.handleChange}
+          values={this.state}
+        />
       </div>
     )
   }
 }
+
+function mapStateToProps(state) {
+  return {}
+}
+
+const mapDispatchToProps = {
+  createMessage
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(ContactFormCon)

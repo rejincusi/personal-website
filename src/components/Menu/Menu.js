@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { } from 'react'
 import Pdf from '../../assets/rejincusi2019.pdf'
 import { Link } from "react-router-dom"
 import { Grid } from '@material-ui/core';
