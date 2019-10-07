@@ -11,10 +11,10 @@ function newMessage(payload) {
 
 export const createMessage = (data) => async (dispatch, getState) => {
   
-  const serverUrl = "http://localhost:5000"
+  const serverUrl = 'https://rejin-server.herokuapp.com'
 
   await request
-    .post(`${serverUrl}/messages`)
+    .post(`${serverUrl}/contact`)
     .send(data)
     .then(response => {
 			const action = newMessage(response.body)
