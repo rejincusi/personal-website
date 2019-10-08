@@ -15,51 +15,51 @@ export default class Skills extends Component {
             <Grid container className="skills-container">
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-node-js fa-5x"></i>
+                <i class="fab fa-node-js fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-vuejs fa-5x"></i>
+                <i class="fab fa-vuejs fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-linux fa-5x"></i>
+                <i class="fab fa-linux fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-react fa-5x"></i>
+                <i class="fab fa-react fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-html5 fa-5x"></i>
+                <i class="fab fa-html5 fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-js fa-5x"></i>
+                <i class="fab fa-js fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-adobe fa-5x"></i>
+                <i class="fab fa-adobe fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fas fa-database fa-5x"></i>
+                <i class="fas fa-database fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-docker fa-5x"></i>
+                <i class="fab fa-docker fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-css3-alt fa-5x"></i>
+                <i class="fab fa-css3-alt fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-git fa-5x"></i>
+                <i class="fab fa-git fa-4x"></i>
               </Grid>
 
               <Grid item xs={6} sm={4} md={3} lg={3}>
-                <i class="fab fa-bootstrap fa-5x"></i>
+                <i class="fab fa-bootstrap fa-4x"></i>
               </Grid>
             </Grid>
 

@@ -1,43 +1,26 @@
-.contact-container {
-  margin-left: 55px !important;
-  margin-right: 35px !important;
-  border: #565758
-}
-
 .message-form .MuiInputBase-root{
   color: #565758 !important
 }
 
-h1 {
-  margin-left: 55px !important;
-  margin-right: 35px !important;
+.title {
   color: #565758
 }
 
 .sbmt-btn {
-  margin-left: 55px !important;
-  margin-right: 35px !important;
+  margin-bottom: 20px !important;
   color: #565758 !important;
 }
 
-.msg-form {
-  margin-bottom: 147px;
+.contact-container {
+  text-align: -webkit-center;
+  font-size: 1.2em !important
 }
 
 @media only screen and (max-width: 600px) {
-  .contact-container  {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-  }
-  h1 {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-  }
-  .msg-form {
-    margin-bottom: 0px !important
-  }
-  .sbmt-btn {
-    margin-bottom: 20px !important
-  }
+
 }
 
+.get-in-touch {
+  font-size: 1.2em;
+  color: #565758 !important;
+}

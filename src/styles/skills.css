@@ -3,7 +3,7 @@
 }
 
 #text {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -13,7 +13,8 @@
 }
 
 i {
-  color: #565758 !important;;
+  color: #565758 !important;
+  padding: 20px !important;
 }
 
 a {

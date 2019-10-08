@@ -22,7 +22,7 @@ export default class About extends Component {
             </p>  
 
             <p>
-              Other then programming she is also interested in  <br/>music, photography, travel, animals and nature.
+              Other than programming she is also interested in  <br/>music, photography, travel, animals and nature.
             </p>  
 
             <br/>
