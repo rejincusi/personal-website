@@ -1,6 +1,12 @@
 .message-form .MuiInputBase-root{
-  color: #565758 !important
+  color: #565758 !important;
+  /* border: 1.3px solid #565758;
+  border-radius: 6px; */
 }
+
+/* .MuiTextField {
+  border: 2px solid
+} */
 
 .title {
   color: #565758

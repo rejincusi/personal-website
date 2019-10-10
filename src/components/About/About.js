@@ -11,7 +11,7 @@ export default class About extends Component {
             <h2>About</h2>
             <p className="about-text">
               Rejin was a former singer/musician in Hong Kong, with five years
-              in experienced <br/>in music industry she decided to quit her singing
+              experienced <br/>in music industry she decided to quit her singing
               career<br/> and pursue her dream career as a web developer in The Netherlands.
             </p>
 

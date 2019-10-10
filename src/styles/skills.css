@@ -1,5 +1,6 @@
 .skills {
-  text-align: center !important
+  text-align: center !important;  
+  visibility: hidden
 }
 
 #text {
@@ -37,4 +38,9 @@ a {
     margin-left: 0px;
     margin-right: 0px;
   }
+}
+
+.row-1 i {
+  margin-left: 30px;
+  margin-right: 30px
 }
