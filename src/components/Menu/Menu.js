@@ -1,5 +1,5 @@
 import React, { } from 'react'
-import Pdf from '../../assets/rejincusi2020.pdf'
+import Pdf from '../../assets/rejincusi.pdf'
 import { Link } from "react-router-dom"
 import { Grid } from '@material-ui/core';
 import '../../styles/menu.css'
